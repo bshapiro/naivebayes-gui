@@ -1,0 +1,3 @@
+This is a personal project I did on hypnotic linguistics. I was interested in whether I could isolatekey important features of hypnotic language from hypnotic documents using a simple classifying technique like naive bayes. The paper in this repo shows my results (successful!). 
+
+Additionally you will find a naive bayes implementation with a GUI. Feel free to take this code and expand on it. Currently the GUI is written so that the system will only work if you have 2 categories, but I'm sure there's an easy way to generalize the design to multiple classes. Feel free to get in touch with me if you have any comments or questions!
