@@ -96,8 +96,7 @@ class NaiveBayes:
 
     def addFiles(self):
         locations = tkFileDialog.askopenfilename(multiple=True) #open dialog
-        locationsList = locations.split(" ")
-        for location in locationsList:
+        for location in locations:
             self.trainingFiles.insert(END,location + "\n")
 
     def train(self):
