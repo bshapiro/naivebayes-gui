@@ -1,8 +1,6 @@
-This is a personal project I did on hypnotic linguistics. I was interested in whether I could isolate key important features of hypnotic language from hypnotic documents using a simple classifying technique like naive bayes. This would be useful because there is not very much literature on how to properly conduct a hypnotic induction and there is a lot of myth surrounding hypnosis in general. However, hypnosis is a scientific phenomenon that we simply do not know very much about, and it is potentially very useful, so I was interested in exploring the way it works from a computational perspective. The paper in this repo shows my results (successful!). 
+This repository contains code for an implementation of a multinomial Naive Bayes classifier with a GUI. The tool will allow you to train as many categories as you want with various documents, and then classify new documents.
 
-Additionally you will find a multinomial naive bayes implementation with Laplace smoothing, complete with a GUI. This tool will allow you to train as many categories as you want, and then classify new documents.
-
-The tool can also graph the log likelihoods of all words in your training data, given each category. However, because I was only dealing with the binary case, it will only do this for the first TWO classes -- feel free to take this code and expand on it. For now the graphing code is commented out. 
+The tool can also graph the log likelihoods of all words in your training data, given each category. However, because I was personally only dealing with the binary case, it will only do this for the first TWO classes -- however, feel free to fork or expand as you wish. For now, the graphing code is commented. 
 
 This application is not specific to my problem; you can use it out of the box for any classification problem you wish. Feel free to get in touch with me if you have any comments or questions!
 
